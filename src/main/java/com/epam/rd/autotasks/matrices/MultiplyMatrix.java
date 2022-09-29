@@ -10,7 +10,7 @@ public class MultiplyMatrix {
         int [][] resultMatrix = new int[r][c];
 
         for (int i = 0; i < matrix1.length; i++) {
-            for (int j = 0; j < matrix1[i].length; j++) {
+            for (int j = 0; j < matrix2[0].length; j++) {
                 int value =0;
                 for (int k = 0; k < matrix1[0].length; k++) {
                    value += matrix1[i][k] * matrix2[k][j];
